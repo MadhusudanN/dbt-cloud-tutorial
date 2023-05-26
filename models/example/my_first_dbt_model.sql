@@ -24,4 +24,4 @@ from source_data
 
 -- where id is not null*/
 
-select * from ayush
+select * from ayush limit 2

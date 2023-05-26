@@ -7,9 +7,9 @@
     Try changing "table" to "view" below
 */
 
-/*{{ config(materialized='table') }}
+{{ config(materialized='table') }}
 
-with source_data as (
+/*with source_data as (
 
     select 1 as id
     union all
@@ -26,4 +26,4 @@ from source_data
 
 -- where id is not null*/
 
-select * from ayush limit 20
+select * from ayush

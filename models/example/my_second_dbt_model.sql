@@ -3,6 +3,6 @@
 
 select *
 from {{ ref('my_first_dbt_model') }}
-where id = 1
+where O_ORDERKEY = 1200002
 
-/*select * from ayush limit 10*/
+/*select * from ayush limit 100*/

@@ -24,4 +24,4 @@ from source_data
 
 -- where id is not null*/
 
-/*select * from ayush limit 2 */
+select * from pagila.dbt_aanubhava.ayush limit 2 
